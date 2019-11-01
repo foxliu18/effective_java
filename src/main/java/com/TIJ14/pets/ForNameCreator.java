@@ -1,4 +1,4 @@
-package com.view.TIJ14.pets;
+package com.TIJ14.pets;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,14 +6,14 @@ import java.util.List;
 public class ForNameCreator extends PetCreator {
     private static List<Class<? extends Pet>> types = new ArrayList<Class<? extends Pet>>();
     private static String[] typeNames = {
-            "com.view.TIJ14.pets.Mutt",
-            "com.view.TIJ14.pets.EgyptianMau",
-            "com.view.TIJ14.pets.Manx",
-            "com.view.TIJ14.pets.Pug",
-            "com.view.TIJ14.pets.Cymric",
-            "com.view.TIJ14.pets.Rat",
-            "com.view.TIJ14.pets.Mouse",
-            "com.view.TIJ14.pets.Hamster"
+            "com.TIJ14.pets.Mutt",
+            "com.TIJ14.pets.EgyptianMau",
+            "com.TIJ14.pets.Manx",
+            "com.TIJ14.pets.Pug",
+            "com.TIJ14.pets.Cymric",
+            "com.TIJ14.pets.Rat",
+            "com.TIJ14.pets.Mouse",
+            "com.TIJ14.pets.Hamster"
     };
     @SuppressWarnings("unchecked")
     private static void loader(){

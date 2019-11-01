@@ -1,6 +1,6 @@
-package com.view.TIJ14;
+package com.TIJ14;
 
-import com.view.TIJ14.pets.*;
+import com.TIJ14.pets.*;
 
 import java.util.HashMap;
 

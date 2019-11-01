@@ -1,4 +1,4 @@
-package com.view.TIJ14;
+package com.TIJ14;
 
 import java.util.ArrayList;
 import java.util.List;

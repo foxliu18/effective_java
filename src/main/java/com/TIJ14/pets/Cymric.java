@@ -1,4 +1,4 @@
-package com.view.TIJ14.pets;
+package com.TIJ14.pets;
 
 public class Cymric extends Manx{
     public Cymric(String name){

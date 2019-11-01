@@ -1,4 +1,4 @@
-package com.view.ch04;
+package com.ch04;
 
 import java.util.Collection;
 import java.util.Set;

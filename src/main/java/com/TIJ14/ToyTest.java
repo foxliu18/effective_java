@@ -1,4 +1,4 @@
-package com.view.TIJ14;
+package com.TIJ14;
 
 import static jdk.nashorn.internal.objects.Global.print;
 
@@ -25,7 +25,7 @@ public class ToyTest {
     public static  void test(){
         Class c = null;
         try{
-            c = Class.forName("com.view.TIJ14.FancyToy");
+            c = Class.forName("com.TIJ14.FancyToy");
         }catch (ClassNotFoundException e){
             print("Can't find FancyToy");
             System.exit(1);

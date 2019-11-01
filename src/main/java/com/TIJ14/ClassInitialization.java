@@ -1,4 +1,4 @@
-package com.view.TIJ14;
+package com.TIJ14;
 
 import java.util.Random;
 
@@ -33,7 +33,7 @@ public class ClassInitialization {
         System.out.println(Initable.staticFinal2);
         System.out.println(Initable2.staticNonFinal);
         try {
-            Class initable3 = Class.forName("com.view.TIJ14.Initable3");
+            Class initable3 = Class.forName("com.TIJ14.Initable3");
             System.out.println("After creating Initable3 ref");
             System.out.println(Initable3.staticNonFinal);
         } catch (ClassNotFoundException e) {

@@ -1,4 +1,4 @@
-package com.view.TIJ14.pets;
+package com.TIJ14.pets;
 
 public class Cat extends Pet {
     public Cat(String name){
