@@ -1,5 +1,7 @@
 package com.TIJ14.pets;
 
+import com.TIJ14.PetCount;
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -19,6 +21,7 @@ public class LiteralPetCreator extends PetCreator {
     }
 
     public static void main(String[] args){
-        System.out.println(types);
+//        System.out.println(types);
+        PetCount.countPets(Pets.creator);
     }
 }

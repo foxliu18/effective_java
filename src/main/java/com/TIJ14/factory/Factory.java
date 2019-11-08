@@ -1,4 +1,5 @@
 package com.TIJ14.factory;
 
-public class Factory {
+public interface Factory<T>{
+    T create();
 }
